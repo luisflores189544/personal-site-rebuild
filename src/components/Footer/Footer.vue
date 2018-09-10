@@ -26,18 +26,8 @@
                     <a href="#">Projects</a>
                 </div>
                 <div class="footer__site_item">
-                    <a href="#">Blog</a>
+                    <a href="#">About Me</a>
                 </div>
-                <div class="footer__site_item">
-                    <a href="#">Contact Me</a>
-                </div>
-                <div class="footer__site_item">
-                    <a href="#">Hire Me</a>
-                </div>
-                <div class="footer__site_item">
-                    <a href="#">Projects</a>
-                </div>
-
             </div>
             
         </div>
@@ -88,6 +78,7 @@
     flex-flow: row wrap;
     margin: 10px 10px;
     text-align: center;
+    width: 25%;
 }
 
 .footer__site_item {
@@ -105,7 +96,6 @@
     .footer__content {
         flex-direction: column;
     }
-
     .footer__site_item {
         width: 50%;
         padding: 10px 0;

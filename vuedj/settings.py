@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'vuedj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'personal_site',
         'USER': 'postgres',
         'PASSWORD': 'Stock7980',
-        'HOST': '',
-        'POST': '5432'
+        'HOST': 'localhost',
+        'PORT': '5433'
     }
 }
 

@@ -13,7 +13,7 @@
             <div class="navbar__menuItem">
                 <a href="/projects" class="navbar__menuLink">{{ projectLink }}</a>
             </div>
-            <div class="navbar__menuItem">
+            <!-- <div class="navbar__menuItem">
                 <a href="/" class="navbar__menuLink">{{ blogLink }}</a>
             </div>
             <div class="navbar__menuItem">
@@ -21,7 +21,7 @@
             </div>
             <div class="navbar__menuItem">
                 <a href="/" class="navbar__menuLink">{{ contactLink }}</a>
-            </div>
+            </div> -->
             <div class="navbar__menuItem">
                 <a href="/" class="navbar__menuLink">{{ aboutLink }}</a>
             </div>
@@ -37,9 +37,9 @@ export default {
     return {
       homeLink: 'Home',
       projectLink: 'Projects',
-      blogLink: 'Blog',
-      resourceLink: 'Resources',
-      contactLink: 'Contact Me',
+    //   blogLink: 'Blog',
+    //   resourceLink: 'Resources',
+    //   contactLink: 'Contact Me',
       aboutLink: 'About Me'
     }
   }

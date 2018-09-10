@@ -27,6 +27,7 @@ body {
   /* justify-content: center; */
   height: 100%;
   margin: 0;
+  background-color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -62,7 +63,7 @@ h2 {
 }
 
 .main {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .syntax__color_a {
